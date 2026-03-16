@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programação e Linguagens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="btnTopo">Voltar ao Topo</button>
+    <header>
+        <div class="abas">
+            <button class="aba active" data-alvo="inicio">História</button>
+            <button class="aba" data-alvo="linguagens">Linguagens</button>
+            <button class="aba" data-alvo="web">Programação Web</button>
+            <button class="aba" data-alvo="ia">Inteligência Artificial</button>
+            <button class="aba" data-alvo="quiz">Quiz</button>
+        </div>
+    </header>
+
+    <div id="conteudos">
+        <div class="conteudo active" id="inicio">
+            <h2>História da Programação:</h2>
+            <div class="Ada">
+                <p>A história da programação é uma jornada fascinante que acompanha o avanço da tecnologia e da própria sociedade. Tudo começou no século XIX com Ada Lovelace, filha do poeta Lord Byron, que estudou o projeto da Máquina Analítica de Charles Babbage — um protótipo de computador mecânico. Ada escreveu instruções que permitiriam à máquina calcular uma sequência de números, tornando-se a primeira programadora da história.</p>
+                <img src="imagens/1ada.jpg" alt="Ada Lovelace">
+            </div>
+            <p>No século XX, com o desenvolvimento dos computadores eletrônicos, a programação começou a ganhar forma. As primeiras máquinas utilizavam cartões perfurados e linguagem de máquina, uma sequência de números binários compreendidos diretamente pelo computador. Essa forma era extremamente difícil de usar, então os cientistas criaram linguagens intermediárias, como o Assembly, que simplificavam o processo.</p>
+            <p>Nos anos 1950 e 1960, surgiram linguagens como Fortran, voltada à ciência e engenharia, e COBOL, voltada a negócios e bancos. Elas marcaram o início da era das linguagens de alto nível — mais próximas da linguagem humana. Depois vieram C, C++ e Java, que revolucionaram a forma de programar, permitindo criar sistemas complexos e multiplataforma.</p>
+            <p>Com o avanço da internet, linguagens como JavaScript, Python e PHP tornaram-se essenciais para o desenvolvimento de sites, aplicativos e sistemas inteligentes. Hoje, a programação está presente em praticamente tudo: celulares, carros, eletrodomésticos, redes sociais e até inteligência artificial.</p>
+            <h2>Curiosidade:</h2>
+            <div class="Bug">
+                <p>🦋 O termo “bug”, muito usado para indicar falhas no código, surgiu em 1947, quando uma mariposa foi encontrada dentro do computador Harvard Mark II, causando uma pane. A equipe registrou o incidente como o “primeiro bug real” da história da computação — e o nome pegou!</p>
+                <img src="imagens/1bug.jpg" alt="Primeiro Bug">
+            </div>
+        </div>
+
+        <div class="conteudo" id="linguagens">
+            <h2>Linguagens de Programação:</h2>
+            <div class="Linguagens">
+                <p>Assim como existem várias línguas faladas no mundo — como o português, o inglês, o russo ou o chinês — também existem várias linguagens de programação. Cada uma tem seu próprio “jeito de falar” com o computador, com suas regras, vantagens e dificuldades. Algumas são mais fáceis de entender, outras mais poderosas, e cada uma serve melhor para um tipo diferente de tarefa.</p>
+                <img src="imagens/2lingu.png" alt="Linguagens de Programação">
+            </div>
+            <p>🐍 <strong>Python</strong>: É como o “português” das linguagens de programação: simples, fácil de ler e de aprender. É muito usada em inteligência artificial, ciência de dados, sites e automação de tarefas. O código em Python parece quase uma frase comum, o que ajuda quem está começando. Ela é muito versátil, ou seja, dá pra fazer quase tudo com ela. Ela é usada por: Google, Instagram e YouTube.</p>
+            <p>🌐 <strong>JavaScript</strong>: É a linguagem da internet, responsável por deixar os sites interativos e dinâmicos. Sabe quando você clica em algo num site e aparece uma animação ou um botão muda de cor? Geralmente, isso é feito com JavaScript. Ela é muito popular porque funciona em praticamente qualquer navegador, sem precisar instalar nada. Ela é usada por: Facebook, Netflix e praticamente todos os sites modernos.</p>
+            <p>☕ <strong>Java</strong>: É uma linguagem mais formal e estruturada, como se fosse o “inglês dos negócios” da programação. Ela é poderosa e usada para grandes sistemas, aplicativos Android, e programas de empresas. Uma das grandes vantagens do Java é que ele pode rodar em qualquer sistema operacional, como Windows, Mac ou Linux — “escreva uma vez, rode em qualquer lugar”. Ela é usada por: bancos, sistemas de empresas e até o famoso jogo Minecraft.</p>
+            <p>💾 <strong>C</strong>: É uma das linguagens mais antigas e rápidas que existem. Ela é como o “latim” da programação: muita coisa moderna veio dela. É usada em sistemas operacionais, controladores, dispositivos eletrônicos e até em jogos. Quem aprende C entende melhor como o computador funciona “por dentro”. Ela é usada por: Windows, Linux e até em partes do iOS.</p>
+            <p>⚙️ <strong>C++</strong>: É uma versão mais avançada e poderosa do C. Ela permite fazer programas muito rápidos e complexos, sendo ideal para jogos 3D, softwares pesados e motores gráficos. Por dar mais controle sobre o computador, também exige mais conhecimento. É muito valorizada por desenvolvedores que trabalham com desempenho e precisão. Ela é usada por: Photoshop, Unreal Engine (motor de jogos) e sistemas de alta performance.</p>
+            <h2>Relação das Linguagens de Programação com o Inglês:</h2>
+            <p>💬 O inglês tem uma relação muito próxima com as linguagens de programação, pois a maioria delas utiliza comandos, palavras-chave e estruturas baseadas nesse idioma, como if, else, print, entre outros. Isso acontece porque o inglês é a língua padrão da tecnologia e da ciência. Além disso, a maior parte da documentação, tutoriais, cursos e fóruns está escrita em inglês, o que torna o domínio do idioma uma grande vantagem para quem quer aprender a programar ou resolver problemas técnicos.</p>
+        </div>
+
+        <div class="conteudo" id="web">
+            <h2>Programação Web:</h2>
+            <p>A programação web é a área da tecnologia que cria sites, sistemas e aplicações que funcionam pela internet — tudo o que você acessa pelo navegador (como o Google, Instagram Web, Netflix, etc).</p>
+            <p>Ela se divide basicamente em duas partes: <strong>Front-end</strong> (a parte que o usuário vê e interage) — é onde entram o HTML, CSS e JavaScript; e <strong>Back-end</strong> (a parte que roda por trás do site, com bancos de dados, servidores e lógica de negócio).</p>
+            <p>A programação web é tipo construir uma casa: o HTML é a estrutura, o CSS é a decoração e o estilo, e o JavaScript é o que dá vida e movimento à casa.</p>
+            <div class="web">
+                <img src="imagens/3html.jpg" alt="HTML">
+                <img src="imagens/3css.jpg" alt="CSS">
+                <img src="imagens/3js.jpg" alt="JavaScript">
+            </div>
+            <h2>HTML (HyperText Markup Language):</h2>
+            <div class="codigo">
+                <p>&lt;h1&gt;Seja bem-vindo(a) ao curso de informática💚&lt;/h1&gt;</p>
+                <p>&lt;p&gt;A informática é uma dos melhores áreas para trabalhar atualmente!&lt;/p&gt;</p>
+                <p>&lt;img src="binário.jpg" alt="0101"&gt;</p>
+            </div>
+            <h2>CSS (Cascading Style Sheets):</h2>
+            <div class="codigo">
+                <p>h1 {</p>
+                <p>  color: #010101;</p>
+                <p>  font-family: 'Times New Roman', Times, serif;</p>
+                <p>  text-align: center;</p>
+                <p>}</p>
+            </div>
+            <h2>JavaScript:</h2>
+            <div class="codigo">
+                <p>function mostrarMensagem() {</p>
+                <p>  alert("Venha para o curso de informática💚");</p>
+                <p>}</p>
+            </div>
+        </div>
+
+        <div class="conteudo" id="ia">
+            <h2>Inteligência Artificial:</h2>
+            <p>Inteligência Artificial, ou IA, é um ramo da ciência da computação que cria sistemas capazes de executar tarefas que normalmente exigiriam inteligência humana. Isso inclui compreender linguagem, reconhecer imagens, tomar decisões e aprender com dados, simulando de certa forma o raciocínio humano de maneira automatizada.</p>
+            <h2>Como a IA é usada na programação?</h2>
+            <p>Na programação, a IA serve como uma ferramenta para facilitar e acelerar o desenvolvimento de softwares e sites. Ela pode ajudar a gerar trechos de código automaticamente, sugerir soluções para problemas complexos, automatizar testes e até criar conteúdos visuais e textuais que complementam projetos digitais. Inclusive, a IA foi utilizada para ajudar na criação deste site, tornando o processo mais rápido e eficiente.</p>
+            <h2>Principais IAs:</h2>
+            <div class="ia-item">
+                <p><strong>GPT (ChatGPT, OpenAI)</strong>: uma IA de linguagem que entende e produz textos de forma inteligente. É usada para gerar conteúdo, responder perguntas e até auxiliar programadores sugerindo códigos ou explicando conceitos.</p>
+                <div class="ia-img-container"><img src="imagens/4gpt.png" alt="GPT" class="ia-img"></div>
+            </div>
+            <div class="ia-item">
+                <p><strong>Copilot (GitHub)</strong>: funciona como assistente de programação. Ele sugere trechos de código, detecta erros e acelera o desenvolvimento de softwares, permitindo que programadores foquem em tarefas mais complexas.</p>
+                <div class="ia-img-container"><img src="imagens/4copilot.png" alt="Copilot" class="ia-img"></div>
+            </div>
+            <div class="ia-item">
+                <p><strong>Gemini (Google DeepMind)</strong>: uma IA de propósito geral que combina linguagem, raciocínio e aprendizado. Pode ser aplicada tanto em programação quanto em pesquisas e análise de dados, ajudando a criar soluções mais inteligentes e precisas.</p>
+                <div class="ia-img-container"><img src="imagens/4gemini.png" alt="Gemini" class="ia-img"></div>
+            </div>
+        </div>
+
+        <div class="conteudo" id="quiz">
+            <h2>Quiz Sobre a Programação:</h2>
+            <div class="quiz-container">
+                <div class="card-pergunta" data-correta="b">
+                    <h3>1. Quem é considerada a primeira programadora da história?</h3>
+                    <div class="alternativas">
+                        <label><input type="radio" name="p1" value="a"> a) Agatha Christie</label>
+                        <label><input type="radio" name="p1" value="b"> b) Ada Lovelace</label>
+                        <label><input type="radio" name="p1" value="c"> c) Valentina Tereshkova</label>
+                        <label><input type="radio" name="p1" value="d"> d) Marie Curie</label>
+                    </div>
+                </div>
+
+                <div class="card-pergunta" data-correta="d">
+                    <h3>2. Qual dessas linguagens é simples e fácil para iniciantes?</h3>
+                    <div class="alternativas">
+                        <label><input type="radio" name="p2" value="a"> a) JavaScript</label>
+                        <label><input type="radio" name="p2" value="b"> b) C</label>
+                        <label><input type="radio" name="p2" value="c"> c) C++</label>
+                        <label><input type="radio" name="p2" value="d"> d) Python</label>
+                    </div>
+                </div>
+
+                <div class="card-pergunta" data-correta="c">
+                    <h3>3. Quais linguagens entram na parte do site que o usuário vê e interage?</h3>
+                    <div class="alternativas">
+                        <label><input type="radio" name="p3" value="a"> a) C, JavaScript e C++</label>
+                        <label><input type="radio" name="p3" value="b"> b) Java, Python e CSS</label>
+                        <label><input type="radio" name="p3" value="c"> c) HTML, CSS e JavaScript</label>
+                        <label><input type="radio" name="p3" value="d"> d) C++, Ruby e HTML</label>
+                    </div>
+                </div>
+
+                <div class="card-pergunta" data-correta="c">
+                    <h3>4. O que é Inteligência Artificial (IA)?</h3>
+                    <div class="alternativas">
+                        <label><input type="radio" name="p4" value="a"> a) Um robô humano</label>
+                        <label><input type="radio" name="p4" value="b"> b) Apenas um programa que gera imagens</label>
+                        <label><input type="radio" name="p4" value="c"> c) É um programa que simula a inteligência humana</label>
+                        <label><input type="radio" name="p4" value="d"> d) Um tipo de computador digital</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; FEPROTÉC 2025 - Luiza de Teodoro Vieira.</p>
+        <p>Programar é transformar ideias incríveis em realidade :)</p>
+        <p>Site desenvolvido por: Álex, Beatriz, Kethelly, Raniel, Erick, e Nelson.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
